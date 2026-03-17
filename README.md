@@ -134,29 +134,6 @@ The program allows users to display stored data for:
 
 ![Show Details](sc4.png)
 
----
-
-# ⚙️ How to Run the Project
-
-### Step 1
-Install Python (if not installed)
-
-Download from  
-https://www.python.org/
-
-### Step 2
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/employee-management-system.git
-Step 3
-Navigate to the project folder
-
-cd employee-management-system
-Step 4
-Run the program
-
-python employee_management.py
 🎯 Learning Outcome
 This project helps beginners understand:
 
