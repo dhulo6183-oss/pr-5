@@ -99,7 +99,7 @@ Users can select an option by entering the number.
 
 The user enters name and age to create a person.
 
-![Create Person](Screenshots/sc1.png)
+![Create Person](sc1.png)
 
 ---
 
@@ -112,7 +112,7 @@ The user enters:
 - Employee ID
 - Salary
 
-![Create Employee](Screenshots/sc2.png)
+![Create Employee](sc2.png)
 
 ---
 
@@ -120,7 +120,7 @@ The user enters:
 
 Managers have additional information like **department**.
 
-![Create Manager](Screenshots/sc3.png)
+![Create Manager](sc3.png)
 
 ---
 
@@ -132,7 +132,7 @@ The program allows users to display stored data for:
 - Employee
 - Manager
 
-![Show Details](Screenshots/sc4.png)
+![Show Details](sc4.png)
 
 ---
 
