@@ -1,14 +1,14 @@
-# -------- Base Class --------
+
 class Employee:
 
-    # Constructor (runs when object is created)
+    
     def __init__(self, emp_id, name, age, salary):
         self.emp_id = emp_id
         self.name = name
         self.age = age
         self.salary = salary
 
-    # Function to show details
+  
     def display(self):
         print("\nEmployee Details")
         print("ID:", self.emp_id)
@@ -17,7 +17,7 @@ class Employee:
         print("Salary:", self.salary)
 
 
-# -------- Manager Class (Inheritance) --------
+
 class Manager(Employee):
 
     def __init__(self, emp_id, name, age, salary, department):
@@ -29,7 +29,7 @@ class Manager(Employee):
         print("Department:", self.department)
 
 
-# -------- Developer Class (Inheritance) --------
+
 class Developer(Employee):
 
     def __init__(self, emp_id, name, age, salary, language):
@@ -41,12 +41,12 @@ class Developer(Employee):
         print("Programming Language:", self.language)
 
 
-# -------- Check Inheritance --------
+
 print("Manager is subclass of Employee:", issubclass(Manager, Employee))
 print("Developer is subclass of Employee:", issubclass(Developer, Employee))
 
 
-# -------- Menu Program --------
+
 employee = None
 manager = None
 developer = None
@@ -61,7 +61,7 @@ while True:
 
     choice = input("Enter your choice: ")
 
-    # Create Employee
+   
     if choice == "1":
         emp_id = input("Enter ID: ")
         name = input("Enter Name: ")
@@ -71,7 +71,7 @@ while True:
         employee = Employee(emp_id, name, age, salary)
         print("Employee Added!")
 
-    # Create Manager
+   
     elif choice == "2":
         emp_id = input("Enter ID: ")
         name = input("Enter Name: ")
@@ -82,7 +82,7 @@ while True:
         manager = Manager(emp_id, name, age, salary, dept)
         print("Manager Added!")
 
-    # Create Developer
+   
     elif choice == "3":
         emp_id = input("Enter ID: ")
         name = input("Enter Name: ")
@@ -93,7 +93,7 @@ while True:
         developer = Developer(emp_id, name, age, salary, lang)
         print("Developer Added!")
 
-    # Show Details (Simple Version)
+    
     elif choice == "4":
         print("\n1. Show Employee")
         print("2. Show Manager")
@@ -122,7 +122,7 @@ while True:
         else:
             print("Wrong Choice!")
 
-    # Exit
+  
     elif choice == "5":
         print("Program Ended.")
         break
